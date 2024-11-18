@@ -1,0 +1,15 @@
+[package]
+name = "dumpster_test"
+version = "0.1.0"
+edition = "2021"
+license = "MPL-2.0"
+authors = ["Clayton Ramsey"]
+description = "Tests for dumpster garbage collection crate"
+repository = "https://github.com/claytonwramsey/dumpster"
+readme = "../README.md"
+keywords = ["dumpster", "garbage_collector", "test"]
+categories = ["data-structures", "memory-management"]
+
+[dev-dependencies]
+dumpster = { version = "1.0.0", path = "../dumpster" }
+dumpster_derive = { version = "1.0.0", path = "../dumpster_derive" }

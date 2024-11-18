@@ -1,0 +1,13 @@
+[package]
+name = "dumpster_bench"
+version = "0.1.0"
+edition = "2021"
+license = "MPL-2.0"
+authors = ["Clayton Ramsey"]
+description = "Benchmark for dumpster garbage collection crate"
+repository = "https://github.com/claytonwramsey/dumpster"
+readme = "../README.md"
+keywords = ["dumpster", "garbage_collector", "benchmark"]
+categories = ["data-structures", "memory-management"]
+
+[dependencies]
